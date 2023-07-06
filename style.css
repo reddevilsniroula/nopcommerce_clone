@@ -552,15 +552,23 @@ footer.footer {
 .before-line {
   border-bottom: 3px solid #252c3b;;
   width: 250px;
+  position: relative;
+  top: -22px;
+  margin-right: 70px;
+
 }
 
 .network{
   display: flex;
   flex-direction: row;
+  gap:15px
   }
 .after-line {
   border-bottom: 3px solid #252c3b;;
   width: 250px;
+  position: relative;
+  top: -22px;
+  margin-left: 70px;
 }
 
 .fa-brands{
@@ -568,17 +576,59 @@ footer.footer {
 }
 
 i.fa-brands.fa-facebook {
-  font-size: 48px;
-  border: 2px solid #f7ecec;
-  border-radius: 51%;
+  font-size: 50px;
+  border: 3px solid #f7ecec;
+  border-radius: 5%;
+  width: 50px;
 }
 i.fa-brands.fa-twitter {
-  font-size: 48px;
-  border: 2px solid #f7ecec;
-  border-radius: 51%;
+  font-size: 50px;
+  border: 3px solid #f7ecec;
+  border-radius: 50%;
+    width: 50px;
+
 }
 i.fa-brands.fa-linkedin {
-  font-size: 48px;
-  border: 2px solid #f7ecec;
-  border-radius: 51%;
+  font-size: 50px;
+  border: 3px solid #f7ecec;
+  border-radius: 50%;
+  width: 50px;
+
+}
+.footer-disclaimer {
+  color: #6b7890;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+}
+a.footer-link-a {
+  font-size: 13px;
+  color: #6b7890;
+}
+.hosting-title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #6b7890;
+}
+
+
+.hosting-list {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
+.hosting-pics {
+  width: 6.5%;
+}
+.hostingpics{
+  width: 90px;
 }
