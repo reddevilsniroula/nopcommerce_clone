@@ -4,7 +4,7 @@
     box-sizing: 0;
     text-decoration: none;
 }
-
+/* menu items */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@
   .right-menu {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    justify-content: center;
   }
   a.menu-item.get-started {
     border: 2px solid;
@@ -342,6 +342,10 @@ i.fa-solid.fa-angle-down {
   color: darkorange;
   font-size: 40px;
 }
+
+
+
+
 .main-title {
   text-align: center;
   margin: 100px;
@@ -351,7 +355,104 @@ h2.clientheading {
   position: relative;
   top: 35px;
 }
-.testimonials-container {
+.main-1{
+  margin: 20px 100px 0px 100px;
+  }
+.main-1-title{
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 40px 0px 157px 0px;
+}
+.main-1-items{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.item{
+  width: 43%;
+  height: 500px;
+  background-color:#f8f8f8;
+  position: relative;
+  padding: 100px 26px 0px 35px;
+
+}
+.client-site{
+     background-color: white;
+     box-shadow: -3px 0px 5px 2px #8080805c;
+     position: absolute;
+     left: 97px;
+     bottom: 443px;
+ 
+}
+.microsoft-logo{
+
+  width:215px ;
+  height: 110px;
+ } 
+.imgbox{
+  width: 150px;
+  height: 180px;
+  background-color: red;
+  align-items: end;
+}
+
+img.microsoft-logo {
+  position: absolute;
+  bottom: 110px;
+  left: 79px;
+}
+.ScottHunter{
+  float: right;
+  margin-top: -199px;
+  border: 6px solid white;
+  box-shadow: -3px 0px 5px 2px #8080805c;
+  margin-right: -19px;
+
+
+}
+.ScottHunter-img{
+  width: 283px;
+  height: 300px;
+  
+}
+.item-content, .item-content1{
+  font-size: 19px;
+  font-family: sans-serif;
+  line-height: 34px;
+}
+.item-content1{
+  width: 90%;
+}
+.client-detail{
+  margin-top: 60px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+  width: 346px;
+  line-height: 22px;
+}
+
+
+
+/* .testimonials-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.item {
+     width: 35%;
+    position: relative;
+    height: 500px;
+    padding: 100px 25px 0px 35px;
+
+} */
+
+
+/* .testimonials-container {
   display: flex;
 }
 .testimonials-subcontainer {
@@ -391,7 +492,7 @@ img.test-img {
   font-weight: 600;
   text-align: start;
   margin-left: 40px;
-}
+} */
 
 .home-page-clients {
   background-color: #f1eaea;
@@ -416,16 +517,19 @@ i.fa-solid.fa-plus {
 .view-more-button {
   text-align: center;
   margin-top: 50px;
+  position: relative;
+    top: -55px;
+
 }
 
 .all-services-data {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  margin: 10px;
   line-height: 127px;
   justify-content: space-between;
   align-items: center;
+  margin: 0 15%;
 }
 
 
@@ -433,23 +537,29 @@ i.fa-solid.fa-plus {
   width: 25%;
 }
 
-.serviceimg{
-  width: 75%;
+.all-service-container img {
+  width: 80%;
 }
 
 
 
 .all-service-button-two {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
 
 }
+a.btn-black-border-button-two:hover {
+  background-color: #000;
+  color: whitesmoke;
+}
+
 .btn-black-border-button-two {
   border: 2.5px solid black;
   border-radius: 50px;
-  padding: 8px 15px 7px 15px;
+  padding: 11px 20px 11px 20px;
   color: #000;
+  
 }
 
 .try-container {
@@ -513,6 +623,7 @@ footer.footer {
 }
 .footer-container{
   line-height: 30px;
+  width: 20%;
 }
 .title {
   font-size: 32px;
@@ -522,9 +633,8 @@ footer.footer {
   border-bottom: 3px solid;
   width: 50px;
   color: #322f2f;
-  margin-left: 47px;
   margin: 12px;
-  margin-left: 46px;
+  margin-left: 140px;
   
 }
 
@@ -575,26 +685,54 @@ footer.footer {
   width: 10px;
 }
 
-i.fa-brands.fa-facebook {
-  font-size: 50px;
-  border: 3px solid #f7ecec;
-  border-radius: 5%;
-  width: 50px;
+i.fa-brands.fa-facebook-f {
+  color: white;
+  border: 2px solid white;
+  font-size: 29px;
+  width: 33px;
+  height: 24px;
+  padding: 10px 0 10px 13px;
+  border-radius: 50%;
 }
+
 i.fa-brands.fa-twitter {
-  font-size: 50px;
-  border: 3px solid #f7ecec;
+  color: white;
+  border: 2px solid white;
+  font-size: 29px;
+  width: 33px;
+  height: 24px;
+  padding: 10px 0 10px 13px;
   border-radius: 50%;
-    width: 50px;
 
 }
-i.fa-brands.fa-linkedin {
-  font-size: 50px;
-  border: 3px solid #f7ecec;
+i.fa-brands.fa-linkedin-in {
+  color: white;
+  border: 2px solid white;
+  font-size: 29px;
+  width: 33px;
+  height: 24px;
+  padding: 10px 0 10px 13px;
   border-radius: 50%;
-  width: 50px;
 
 }
+
+i.fa-brands.fa-facebook-f:hover {
+  color: #0d92ad;
+  border: 2px solid #0d92ad;
+}
+
+
+i.fa-twitter:hover {
+  color: #0d92ad;
+  border: 2px solid #0d92ad;
+}
+
+
+i.fa-brands.fa-linkedin-in:hover {
+  color: #0d92ad;
+  border: 2px solid #0d92ad;
+}
+
 .footer-disclaimer {
   color: #6b7890;
   font-size: 17px;
@@ -632,3 +770,339 @@ a.footer-link-a {
 .hostingpics{
   width: 90px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+  }
+  .left-menu{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .logo {
+    justify-content: center;
+    display: flex;
+    width: 75%;
+    /* text-align: center; */
+}
+.menu-items a{
+  font-size: 16px;
+
+}
+.right-menu{
+  margin: -12px 100px 1px 1px;
+}
+  .home-page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .border-line{
+    margin-left: 10px;
+  }
+
+  .border-line-large{
+    width: 100px;
+  }
+  .container{
+    margin: 5px;
+    padding: 5px;
+
+  }
+  .statistics-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .statistics{
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 40px 20px 0px;
+
+  }
+  .business-title{
+    font-size: 30px;
+    font-weight: 600;
+
+  }
+  .business-section img{
+    width: 100%;
+  }
+
+  .stats-title{
+    font-size: 25px;
+    line-height: 25px;
+}
+   .stats-subtext{
+    font-size: 16px;
+    line-height: 25px;
+}
+.whynopcommerce-title{
+  font-size: 30px;
+    font-weight: 600;
+}
+.whynopcommerce-section img{
+  width: 100%;
+}
+   .data{
+    line-height: 25px ;
+   }
+   .data-image{
+    width: 100%;
+   }
+   .data-title{
+    font-size: 18px;
+   }
+   .data-text{
+    font-size: 15px;
+   }
+  .store-image{
+    height: 86px;
+  }
+.main-1-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.client-site {
+  position: relative;
+  bottom: 9px;
+  left: 12px;
+}
+.item-content{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  width: 162px;
+  position: relative;
+  top: -216px;
+  right: -161px;
+}
+.client-detail{
+  position: relative;
+  top: -187px;
+  left: -146px;
+}
+.
+.item{
+  height: 358px;
+}
+.clientheading{
+  font-size: 30px;
+}
+.clientlogo img{
+  width: 80%;
+  position: relative;
+  left: -90px;
+}
+.clientlogo i{
+  font-size: 20px;
+}
+i.fa-solid.fa-plus{
+  font-size: 22px;
+  color: #b9a2a2;
+  position: relative;
+  left: -114px;
+  top: -2px;
+}
+.clientimage
+{
+  line-height: 0px;
+}
+.btn-black-border-button {
+  position: relative;
+  top: 32px;
+
+}
+.main-title{
+  margin: 30px;
+}
+.all-services-data {
+  line-height: 0px;
+}
+.try-container {
+  margin: 0px;
+  margin-top: 41px;
+  line-height: 48px;
+}
+.try-container h2{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-block , .title {
+  font-size: 13px;
+}
+.product_list a{
+  font-size: 15px;
+}
+.productline {
+  width: 30px;
+  margin: 12px;
+  margin-left: 36px;
+}
+
+.before-line {
+  width: 100px;
+  right: -45px;
+}
+.after-line{
+  width: 100px;
+  left: -45px;
+}
+i.fa-brands.fa-facebook-f {
+font-size: 21px;
+width: 20px;
+height: 24px;
+padding: 5px 5px 5px 7px;
+}
+i.fa-brands.fa-twitter {
+  font-size: 21px;
+width: 20px;
+height: 24px;
+padding: 5px 5px 5px 7px;
+}
+i.fa-brands.fa-linkedin-in {
+  font-size: 21px;
+  width: 20px;
+  height: 24px;
+  padding: 5px 5px 5px 7px;
+}
+.footer-disclaimer{
+  font-size: 13px;
+}
+a.footer-link-a {
+  font-size: 11px;
+}
+.hosting-title{
+  font-size: 18px;
+}
+.hosting-pics   {
+  width: 100%;
+}
+.hostingpics {
+  width: 94%;
+}
+}
+
+/* 
+Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 990px){
+
+  .logo img {
+    width: 100%;
+    height: 25px;
+    margin-left: 22px;
+    margin-top: 3px;
+}
+.menu-items {
+  margin-left: 36px;
+}
+a.menu-item {
+  font-size: 13px;
+  
+}
+.left-menu{
+  width: 60%;
+}
+.right-menu{
+  width: 27%;
+}
+.home-page-text {
+  margin-left: 125px;
+}
+.home-page-image {
+  width: 38%;
+}
+.statistics-section {
+  margin-right: 75px;
+}
+.business-data {
+  margin-right: 50px;
+}
+.whynopcommerce-data{
+  margin-right: 40px;
+}
+.data img{
+  width: 100%;
+}
+.developer-section {
+  width: 45%;
+ }
+ .main-1 {
+  margin: 26px 153px 2px 62px;
+}
+.client-detail {
+  margin-top: 75px;
+}
+img.microsoft-logo {
+
+  left: -49px;
+}
+h2.clientheading {
+  
+  left: -72px;
+}
+
+.clientlogo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+.btn-black-border-button {
+
+  left: -44px;
+  position: relative;
+}
+.productline{
+  margin-left: 110px;
+}
+.hosting-pics {
+  width: 8.5%;
+}
+.hostingpics {
+  width: 100px;
+}
+}
+ 
+
+
+/* 
+Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+  
+    
+} 
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+} 
+
+
+
+
+
+
+
+
